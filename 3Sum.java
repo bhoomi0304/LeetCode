@@ -6,7 +6,7 @@ class Solution {
         if(n<3)
             return list;            
         Arrays.sort(nums);
-
+//
         int i=0, j;
         while(i < n){
             j=i+1;
