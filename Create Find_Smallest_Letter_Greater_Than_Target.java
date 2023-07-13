@@ -4,6 +4,6 @@ class Solution {
             if(letters[i]>target)
                 return letters[i];
         }
-        return letters[0];
+        return letters[0];//returns the base address of the array
     }
 }
